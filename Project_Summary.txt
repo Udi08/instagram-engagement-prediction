@@ -1,0 +1,42 @@
+PROJECT SUMMARY
+Title: Instagram Engagement Prediction Using Machine Learning
+
+Problem:
+Predict the number of likes on an Instagram post using post-related features.
+
+Machine Learning approach:
+Supervised Learning – Regression.
+
+Algorithm:
+Random Forest Regressor.
+
+Input features:
+Follower count, post type, posting hour, day of week, hashtag count and Reel duration.
+
+Target:
+Number of likes.
+
+Tools:
+Python, Pandas, NumPy, Matplotlib, Seaborn and Scikit-learn; Google Colab.
+
+Workflow:
+1. Load and inspect the dataset.
+2. Explore the data using charts.
+3. Preprocess numerical and categorical features.
+4. Split data into training and testing sets.
+5. Train Random Forest Regression.
+6. Evaluate using MAE, RMSE and R-squared.
+7. Predict likes for a new sample post.
+
+Dataset:
+A synthetic dataset of 500 records created for demonstration. It is not real Instagram user data.
+
+Viva points:
+- Why supervised learning? Because training examples contain input features and known target values (likes).
+- Why regression? Because likes are numerical values.
+- Why Random Forest? It combines multiple decision trees and can model non-linear relationships.
+- What is MAE? Average absolute difference between actual and predicted values.
+- What is RMSE? Square root of average squared prediction error; it penalizes larger errors.
+- What is R-squared? A measure of how much target variation is explained by the model.
+- What is train-test split? Training data fits the model; test data evaluates it on unseen examples.
+- Limitation? Synthetic data does not represent real Instagram behaviour.
